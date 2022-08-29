@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        class oldPhone {
+            MakeCall() {
+                document.write("Calling is working...\n");
+            }
+        }
+
+        class newPhone extends oldPhone {
+            camera() { 
+                document.write("Camera is working...");
+            }
+        }
+
+        let phone =new newPhone();
+        phone.MakeCall();
+        phone.camera();
+
+    </script>
+
+</body>
+
+</html>

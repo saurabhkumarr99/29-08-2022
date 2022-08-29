@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        class student {
+
+            constructor(Sname, Fname, Mname, age) {
+                this.Student_Name = Sname;
+                this.Father_Name = Fname;
+                this.Moher_Name = Mname;
+                this.age = age;
+            }
+
+            Student_info() {
+               document.write("Student Name :"+this.Student_Name +"Father Nmae :"+this.Father_Name);
+            }
+        }
+
+        let Stud = new student("Student1", "Father1", "Mother1", 35);
+        Stud.Student_info();
+        
+    </script>
+
+</body>
+
+</html>

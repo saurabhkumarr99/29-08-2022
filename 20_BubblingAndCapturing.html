@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        
+        .box1 {
+            border: solid red 7px;
+            background-color: antiquewhite;
+            position: relative;
+            width: 80%;
+            height: 80%;
+            margin: 10px auto;
+        }
+
+        .box2 {
+            border: solid green 5px;
+            background-color: aqua;
+            position: relative;
+            width: 80%;
+            height: 80%;
+            margin: 10px auto;
+        }
+
+        .box3 {
+            border: solid bluec3px;
+            background-color: chartreuse;
+            position: relative;
+            width: 80%;
+            height: 80%;
+            margin: 10px auto;
+        }
+    </style>
+
+    <script>
+        function method1(){
+            alert("Box 1 method executing");
+        }
+        function method2(){
+            alert("Box 2 method executing");
+        }
+        function method3(){
+            alert("Box 3 method executing");
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="box1" onclick=method1()>
+        <h2>Click on box1</h2>
+        <dv class="box2" onclick=method2()>
+            <h2>Cick on box2</h2>
+            <div class="box3" onclick=method3()>
+                <h2>Click on box 3</h2>
+            </div>
+        </dv>
+    </div>
+
+</body>
+
+</html>
